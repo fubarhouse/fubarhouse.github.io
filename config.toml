@@ -1,4 +1,4 @@
-baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "/blog/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Karl Hepworth"
 copyright = "&copy; 2017 Karl Hepworth"
 theme = "academic"
