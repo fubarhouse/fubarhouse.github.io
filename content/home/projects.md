@@ -27,4 +27,3 @@ filter_default = 0
 
 +++
 
-Coming soon, this site has only just moved to Hugo.
