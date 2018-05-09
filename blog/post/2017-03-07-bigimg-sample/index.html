@@ -152,7 +152,7 @@
 
 
   
-    <div id="header-big-imgs" data-num-img=3 data-img-src-1="https://fubarhouse.github.io/img/triangle.jpg" data-img-desc-1="Triangle"data-img-src-2="https://fubarhouse.github.io/img/sphere.jpg" data-img-desc-2="Sphere"data-img-src-3="https://fubarhouse.github.io/img/hexagon.jpg" data-img-desc-3="Hexagon"></div>
+    <div id="header-big-imgs" data-num-img=3 data-img-src-1="https://fubarhouse.github.io/blog/img/triangle.jpg" data-img-desc-1="Triangle"data-img-src-2="https://fubarhouse.github.io/blog/img/sphere.jpg" data-img-desc-2="Sphere"data-img-src-3="https://fubarhouse.github.io/blog/img/hexagon.jpg" data-img-desc-3="Hexagon"></div>
   
 
   <header class="header-section has-img">
@@ -236,20 +236,20 @@
 <p></p>
 
 <p>A single bigimg can be specified in the front matter by the following YAML:</p>
-<div class="highlight"><pre class="chroma">bigimg: [{src: &#34;/img/triangle.jpg&#34;, desc: &#34;Triangle&#34;}]</pre></div>
+<div class="highlight"><pre class="chroma">bigimg: [{src: &#34;/blog/img/triangle.jpg&#34;, desc: &#34;Triangle&#34;}]</pre></div>
 <p>Multiple bigimgs can be specified in the front matter by the following YAML:</p>
-<div class="highlight"><pre class="chroma">bigimg: [{src: &#34;/img/triangle.jpg&#34;, desc: &#34;Triangle&#34;}, 
-         {src: &#34;/img/sphere.jpg&#34;, desc: &#34;Sphere&#34;}, 
-         {src: &#34;/img/hexagon.jpg&#34;, desc: &#34;Hexagon&#34;}]</pre></div>
+<div class="highlight"><pre class="chroma">bigimg: [{src: &#34;/blog/img/triangle.jpg&#34;, desc: &#34;Triangle&#34;},
+         {src: &#34;/blog/img/sphere.jpg&#34;, desc: &#34;Sphere&#34;},
+         {src: &#34;/blog/img/hexagon.jpg&#34;, desc: &#34;Hexagon&#34;}]</pre></div>
 <p>Also note that the description field is optional, and images could instead be specified by:</p>
-<div class="highlight"><pre class="chroma">bigimg: [{src: &#34;/img/triangle.jpg&#34;}, 
-         {src: &#34;/img/sphere.jpg&#34;}, 
-         {src: &#34;/img/hexagon.jpg&#34;}]</pre></div>
+<div class="highlight"><pre class="chroma">bigimg: [{src: &#34;/blog/img/triangle.jpg&#34;},
+         {src: &#34;/blog/img/sphere.jpg&#34;},
+         {src: &#34;/blog/img/hexagon.jpg&#34;}]</pre></div>
 <p>The above YAML array of hashes were written in &ldquo;flow&rdquo; style. However when generating a new page or post with <code>hugo new post/mypost.md</code>, hugo may interpret the archetype for bigimg in the default YAML style. Defining multiple bigimg&rsquo;s complete with descriptions in this style would be specified by:</p>
 <div class="highlight"><pre class="chroma">bigimg: 
-- {src: &#34;/img/triangle.jpg&#34;, desc: &#34;Triangle&#34;}
-- {src: &#34;/img/sphere.jpg&#34;, desc: &#34;Sphere&#34;}
-- {src: &#34;/img/hexagon.jpg&#34;, desc: &#34;Hexagon&#34;}</pre></div>
+- {src: &#34;/blog/img/triangle.jpg&#34;, desc: &#34;Triangle&#34;}
+- {src: &#34;/blog/img/sphere.jpg&#34;, desc: &#34;Sphere&#34;}
+- {src: &#34;/blog/img/hexagon.jpg&#34;, desc: &#34;Hexagon&#34;}</pre></div>
 <p>Additional information can be found <a href="https://rhnh.net/2011/01/31/yaml-tutorial/">in this YAML tutorial</a>.</p>
 
         
