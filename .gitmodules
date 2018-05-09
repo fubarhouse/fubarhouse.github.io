@@ -1,4 +1,0 @@
-[submodule "blog/public"]
-	path = blog/public
-	url = git@github.com:fubarhouse/blog.git
-	branch = master
