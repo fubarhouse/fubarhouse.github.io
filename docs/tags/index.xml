@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Karl&#39;s Blog</title>
-    <link>https://username.github.io/tags/</link>
+    <link>https://fubarhouse.github.io/docs/tags/</link>
     <description>Recent content in Tags on Karl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
     <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://username.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fubarhouse.github.io/docs/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bigimg</title>
-      <link>https://username.github.io/tags/bigimg/</link>
+      <link>https://fubarhouse.github.io/docs/tags/bigimg/</link>
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://username.github.io/tags/bigimg/</guid>
+      <guid>https://fubarhouse.github.io/docs/tags/bigimg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>https://username.github.io/tags/code/</link>
+      <link>https://fubarhouse.github.io/docs/tags/code/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://username.github.io/tags/code/</guid>
+      <guid>https://fubarhouse.github.io/docs/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example</title>
-      <link>https://username.github.io/tags/example/</link>
+      <link>https://fubarhouse.github.io/docs/tags/example/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://username.github.io/tags/example/</guid>
+      <guid>https://fubarhouse.github.io/docs/tags/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://username.github.io/tags/markdown/</link>
+      <link>https://fubarhouse.github.io/docs/tags/markdown/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://username.github.io/tags/markdown/</guid>
+      <guid>https://fubarhouse.github.io/docs/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://username.github.io/tags/math/</link>
+      <link>https://fubarhouse.github.io/docs/tags/math/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://username.github.io/tags/math/</guid>
+      <guid>https://fubarhouse.github.io/docs/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photoswipe</title>
-      <link>https://username.github.io/tags/photoswipe/</link>
+      <link>https://fubarhouse.github.io/docs/tags/photoswipe/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://username.github.io/tags/photoswipe/</guid>
+      <guid>https://fubarhouse.github.io/docs/tags/photoswipe/</guid>
       <description></description>
     </item>
     
