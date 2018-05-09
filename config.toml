@@ -1,4 +1,4 @@
-baseurl = "https://username.github.io"
+baseurl = "https://fubarhouse.github.io/docs"
 DefaultContentLanguage = "en"
 title = "Karl's Blog"
 theme = "beautifulhugo"
