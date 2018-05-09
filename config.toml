@@ -15,8 +15,8 @@ publishDir = "blog"
 [Params]
   homeTitle = "Karl's Blog"
   subtitle = ""
-  logo = "blog/img/avatar-icon.png"
-  favicon = "blog/img/favicon.ico"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = false
