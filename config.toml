@@ -1,4 +1,4 @@
-baseurl = "https://fubarhouse.github.io/docs/"
+baseurl = "https://fubarhouse.github.io/blog/"
 DefaultContentLanguage = "en"
 title = "Karl's Blog"
 theme = "beautifulhugo"
@@ -10,7 +10,7 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #googleAnalytics = "XXX"
-publishDir = "docs"
+publishDir = "blog"
 
 [Params]
   homeTitle = "Karl's Blog"
