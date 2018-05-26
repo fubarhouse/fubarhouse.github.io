@@ -7,9 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
+    <lastBuildDate>Fri, 25 May 2018 23:10:00 +1000</lastBuildDate>
     
 	<atom:link href="https://fubarhouse.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>General</title>
+      <link>https://fubarhouse.github.io/blog/tags/general/</link>
+      <pubDate>Fri, 25 May 2018 23:10:00 +1000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://fubarhouse.github.io/blog/tags/introduction/</link>
+      <pubDate>Fri, 25 May 2018 23:10:00 +1000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/tags/introduction/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
