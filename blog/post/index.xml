@@ -23,5 +23,17 @@ I&amp;rsquo;m employed to work with Drupal as a specialist, and I&amp;rsquo;m an
 In the Drupal space, I have extensive experience with administration, site building, themes, modules (custom and contributed), back-end, release management etc.</description>
     </item>
     
+    <item>
+      <title>Automation tooling essentials</title>
+      <link>https://fubarhouse.github.io/blog/post/20180614/</link>
+      <pubDate>Wed, 14 Jun 2017 23:10:00 +1000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/post/20180614/</guid>
+      <description>I was recently approached by somebody on Slack to provide advice, look at some code and generally help out.
+Questions came up of which answers I generally take for granted - they were fundamental concepts which I simply had never articulated, and it got me wondering.
+Having to explain computer science concepts and terminology I took for granted was a challenge, however I&amp;rsquo;m confident I relayed valuable information.
+Around the same time, I found a script on Twitter which looked really interesting.</description>
+    </item>
+    
   </channel>
 </rss>
