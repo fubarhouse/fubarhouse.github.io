@@ -7,20 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
-    <lastBuildDate>Fri, 25 May 2018 23:10:00 +1000</lastBuildDate>
     
 	<atom:link href="https://fubarhouse.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Introduction</title>
+      <title>About me</title>
       <link>https://fubarhouse.github.io/blog/page/about/</link>
-      <pubDate>Fri, 25 May 2018 23:10:00 +1000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/page/about/</guid>
-      <description>I&amp;rsquo;m Karl and I&amp;rsquo;m a technologist who primarily works with PHP and Go, however I&amp;rsquo;m quite familiar with Java, Ruby, JavaScript/Nodejs, Bash and various other languages, and I&amp;rsquo;m in the process of learning Crystal and Rust.
-I&amp;rsquo;m employed to work with Drupal as a specialist, and I&amp;rsquo;m an advocate of the proverbs and values supported by the Go programming language.
-In the Drupal space, I have extensive experience with administration, site building, themes, modules (custom and contributed), back-end, release management etc.</description>
+      <description>My name is Inigo Montoya. I have the following qualities:
+ I rock a great mustache I&amp;rsquo;m extremely loyal to my family  What else do you need?
+my history To be honest, I&amp;rsquo;m having some trouble remembering right now, so why don&amp;rsquo;t you just watch my movie and it will answer all your questions.</description>
     </item>
     
   </channel>
