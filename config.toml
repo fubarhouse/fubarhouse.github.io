@@ -1,14 +1,16 @@
 baseurl = "https://fubarhouse.github.io/blog/"
 DefaultContentLanguage = "en"
 title = "Karl's Blog"
+#DefaultContentLanguage = "ja"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-pygmentsUseClassic = true
+#pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 publishDir = "blog"
 
@@ -45,6 +47,8 @@ publishDir = "blog"
   facebook = "the.ugly.bum"
   googleplus = "100742823054089470521"
   github = "fubarhouse"
+  gitlab = "fubarhouse"
+  bitbucket = "fubarhouse"
   twitter = "fubarhouse"
   linkedin = "karl-hepworth-0a652350"
 
