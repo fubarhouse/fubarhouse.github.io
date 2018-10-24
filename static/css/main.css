@@ -139,8 +139,9 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #FDDD00;
-  border-bottom: 4px solid #CE3262;
+  background: #D23C26;
+  /*border-bottom: 4px solid #CE3262;*/
+  border-bottom: 4px solid #19305A;
   font-family: 'Work Sans', 'sans-serif;';
 }
 
@@ -152,15 +153,19 @@ img {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
+  color: #FFFFFF;
+  /*color: #404040;*/
   font-weight: 800;
-  color: #404040;
+  border-bottom: 2px solid transparent;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #3F2A56;
+  /*color: #3F2A56;*/
+  border-bottom-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .navbar-custom .navbar-brand-logo {
