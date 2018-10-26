@@ -65,6 +65,13 @@ hr.small {
 .main-content {
   padding-top: 80px;
 }
+
+.well {
+  background: rgba(79,218,157,.3);
+  color: #1a1a1a;
+  font-family: monospace;
+}
+
 @media only screen and (min-width: 768px) {
   .main-content {
     padding-top: 130px;
@@ -139,9 +146,9 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #D23C26;
+  background: #6fb3ff;
   /*border-bottom: 4px solid #CE3262;*/
-  border-bottom: 4px solid #19305A;
+  border-bottom: 4px solid #4578e6;
   font-family: 'Work Sans', 'sans-serif;';
 }
 
@@ -153,7 +160,7 @@ img {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
-  color: #FFFFFF;
+  color: #1a1a1a;
   /*color: #404040;*/
   font-weight: 800;
   border-bottom: 2px solid transparent;
@@ -164,8 +171,8 @@ img {
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   /*color: #3F2A56;*/
-  border-bottom-color: #FFFFFF;
-  color: #FFFFFF;
+  border-bottom-color: #1a1a1a;
+  color: #1a1a1a;
 }
 
 .navbar-custom .navbar-brand-logo {

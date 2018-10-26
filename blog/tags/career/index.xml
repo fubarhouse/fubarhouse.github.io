@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career on Karl&#39;s Blog</title>
+    <link>https://fubarhouse.github.io/blog/tags/career/</link>
+    <description>Recent content in Career on Karl&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
+    <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
+    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fubarhouse.github.io/blog/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Winds of change</title>
+      <link>https://fubarhouse.github.io/blog/post/2018-10-23/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/post/2018-10-23/</guid>
+      <description>Catch 22: I can&amp;rsquo;t and won&amp;rsquo;t reveal much about my work, specific products, services or companies. Work will not make it here directly unless there&amp;rsquo;s some vocational open-source component.
+ After beginning to work with my previous employer, I helped the team in a range of ways using operational tooling, configuration management and a range of cool, customised open source tools.
+Slowly, but surely, I made this happen and I managed to continue the innovation even after the team separated due to administrative change.</description>
+    </item>
+    
+  </channel>
+</rss>
