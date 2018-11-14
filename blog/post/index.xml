@@ -7,17 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
+    <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fubarhouse.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://fubarhouse.github.io/blog/post/2018-10-23/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Bridging the open sourceskill gap in government</title>
+      <link>https://fubarhouse.github.io/blog/post/2018-11-14/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2018-10-23/</guid>
-      <description></description>
+      <guid>https://fubarhouse.github.io/blog/post/2018-11-14/</guid>
+      <description> .navbar-custom { background: #000000; border-color: red; } .navbar-custom .navbar-brand, .navbar-custom .nav li a { color: #ffffff; }  </description>
+    </item>
+    
+    <item>
+      <title>Winds of change</title>
+      <link>https://fubarhouse.github.io/blog/post/2018-11-01/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/post/2018-11-01/</guid>
+      <description>.navbar-custom { background: #6fb3ff; border-color: #6fb3ff; } .navbar-custom .navbar-brand, .navbar-custom .nav li a { color: #1a1a1a; }  After beginning work with my previous mentor, I have truly thrived in automation, developer tooling, command line and command line tools and have undertaken a broad and now well crafted toolchain.
+In addition to fields of work, I&amp;rsquo;ve become much more experienced in Drupal, Node.js &amp;amp; JavaScript, Ruby, Java, and a few others including my favourite - Go.</description>
     </item>
     
   </channel>
