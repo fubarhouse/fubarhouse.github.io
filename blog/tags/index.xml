@@ -7,9 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
+    <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fubarhouse.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Career</title>
+      <link>https://fubarhouse.github.io/blog/tags/career/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drupal</title>
+      <link>https://fubarhouse.github.io/blog/tags/drupal/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/tags/drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Government</title>
+      <link>https://fubarhouse.github.io/blog/tags/government/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/tags/government/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
