@@ -1,6 +1,4 @@
 @font-face {
     font-family: 'OneSize';
-    src: url('../type/onesize.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    url('/type/onesize.ttf')  format('truetype'),
 }
