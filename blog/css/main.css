@@ -2,7 +2,7 @@
 
 body {
   font-family: 'OneSize', 'Work Sans', 'sans-serif;';
-  font-size: 18px;
+  font-size: 1.2em;
   color: #404040;
   position: relative;
   background: #FFFFFF;
@@ -154,7 +154,7 @@ img {
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.7em;
   letter-spacing: 1px;
 }
 
@@ -314,7 +314,7 @@ footer {
   background: #F5F5F5;
   border-top: 1px #EAEAEA solid;
   margin-top: auto;
-  font-size: 14px;
+  font-size: 0.8em;
 }
 
 footer a {
@@ -340,10 +340,10 @@ footer .theme-by {
     padding: 50px 0;
   }
   footer .footer-links {
-    font-size: 18px;
+    font-size: 1.2em;
   }
   footer .copyright {
-    font-size: 16px;
+    font-size: 1.2em;
   }
 }
 
@@ -376,7 +376,7 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 1.7em;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
@@ -387,7 +387,7 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 1.2em;
   font-style: italic;
   margin: 0 0 10px;
 }
@@ -429,7 +429,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 1.7em;
   }
 }
 
@@ -438,7 +438,7 @@ footer .theme-by {
 .blog-tags {
   font-family: 'OneSize', 'Work Sans', 'sans-serif;';
   color: #999;
-  font-size: 15px;
+  font-size: 0.9em;
   margin-bottom: 30px;
 }
 
@@ -528,15 +528,15 @@ footer .theme-by {
 .intro-header .page-heading h1,
 .intro-header .tags-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 2.8em;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 35px;
+  font-size: 2em;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
+  font-size: 1.5em;
   line-height: 1.1;
   display: block;
   font-family: 'OneSize', 'Work Sans', 'sans-serif;';
@@ -562,7 +562,7 @@ footer .theme-by {
   background: rgba(30, 30, 30, 0.6);
   position: absolute;
   padding: 5px 10px;
-  font-size: 11px;
+  font-size: 1em;
   color: #EEE;
   font-family: 'OneSize', 'Work Sans', 'sans-serif;';
   right: 0;
@@ -582,13 +582,13 @@ footer .theme-by {
   }
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1 {
-    font-size: 80px;
+    font-size: 4em;
   }
   .intro-header .post-heading h1 {
-    font-size: 50px;
+    font-size: 2.8em;
   }
   .intro-header.big-img .img-desc {
-    font-size: 14px;
+    font-size: 1.2em;
   }
 }
 
@@ -627,7 +627,7 @@ footer .theme-by {
 
 .caption {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.1em;
   padding: 10px;
   font-style: italic;
   margin: 0;
@@ -641,7 +641,7 @@ footer .theme-by {
 .pager li a {
   font-family: 'OneSize', 'Work Sans', 'sans-serif;';
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1.2em;
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
