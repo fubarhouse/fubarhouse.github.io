@@ -42,9 +42,19 @@ p a {
   /* text-decoration: underline */
   color: #00ACD7;
 }
+code {
+  font-family: 'MonkeyIsland', 'Work Sans', 'sans-serif;';
+  background-color: rgba(200, 200, 200, 0.4);
+}
 h1,h2,h3,h4,h5,h6 {
   font-family: 'MonkeyIsland', 'Work Sans', 'sans-serif;';
   font-weight: 800;
+}
+.h2, h2 {
+  font-size: 1.5em;
+}
+.h3, h3 {
+  font-size: 1.0em;
 }
 a {
   color: #00ACD7;
