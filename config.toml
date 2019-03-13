@@ -5,11 +5,11 @@ title = "Karl's Blog"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
-pygmentsUseClasses = true
 pygmentsCodeFences = true
+pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
+pygmentsUseClassic = true
+pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 publishDir = "blog"
