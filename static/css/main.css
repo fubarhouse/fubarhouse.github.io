@@ -46,6 +46,11 @@ code {
   font-family: 'MonkeyIsland', 'Work Sans', 'sans-serif;';
   background-color: rgba(200, 200, 200, 0.4);
 }
+.chroma {
+  font-family: 'MonkeyIsland', 'Work Sans', 'sans-serif;';
+  background-color: rgba(200, 200, 200, 0.4);
+  padding: 9.5px !important;
+}
 h1,h2,h3,h4,h5,h6 {
   font-family: 'MonkeyIsland', 'Work Sans', 'sans-serif;';
   font-weight: 800;
