@@ -18,8 +18,7 @@
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2019-03-12/</guid>
-      <description>Pygmy is the tool which helps the amazeeio-network Docker network resolve a few issues for local development, and I was never really happy with it&amp;hellip; I suppose even though all of those problems are no longer an issue, but the history is now there.
-What I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn&amp;rsquo;t doing anything unsuitable. Cloning a repository in two directories and running them with docker-compose seems like a tough ask for some&amp;hellip;</description>
+      <description>Featuring a pod of Pygmy Whales and a command line.</description>
     </item>
     
     <item>
@@ -28,9 +27,7 @@ What I perceived to be a broken proxy was simply not suited to what I was doing 
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2019-01-01/</guid>
-      <description>First and foremost, welcome to 2019. May 2019 be an excellent year.
-This year should be rather exciting for me, but I&amp;rsquo;ve stretched the expected goals with some desirable and not-so-desirable goals.
-I started with a new employer late last year and I believe I&amp;rsquo;ve been there long enough to allow the dust to settle. The workloads there are expected to double in the coming 12 months on one project alone and there are multiple projects existing and forthcoming.</description>
+      <description>Goals and excitment for the coming year.</description>
     </item>
     
     <item>
@@ -39,9 +36,7 @@ I started with a new employer late last year and I believe I&amp;rsquo;ve been t
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2018-12-25/</guid>
-      <description>I started 2018 believing I could achieve reinventing myself, like so many did. Foolish, I know. But no matter the circumstance, a holiday is a great catalyst for this.
-Reinventing myself included short-term goals and contributing progress to long-term goals.
-Last year my milestones were impeded by my employer for a variety of reasons outside of my control. Early in the year I needed a move out of my very comfortable situation, so my first successful application was submitted in April, and the application which landed my new job was submitted in August.</description>
+      <description>The year as a post-mortem, looking towards 2019.</description>
     </item>
     
     <item>
@@ -50,9 +45,7 @@ Last year my milestones were impeded by my employer for a variety of reasons out
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2018-11-14/</guid>
-      <description>Not too long ago, one of DrupalACT&amp;rsquo;s developers made a blog post suggesting a developer is not just a developer anymore.
-The author maintains the fact proudly that they&amp;rsquo;re probably being a bit grumpy, however there&amp;rsquo;s a lot of merit in this line of thought.
-When starting out, it was all about the full-stack developer - the LAMP developer. The fact is, a full stack developer simply has a well-rounded set of skills for a particular type of technology which is usually centric to a given language or technology.</description>
+      <description>The barrier of entry for open source developers has never been higher.</description>
     </item>
     
     <item>
@@ -61,9 +54,7 @@ When starting out, it was all about the full-stack developer - the LAMP develope
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2018-11-01/</guid>
-      <description>.navbar-custom { background: #6fb3ff; border-color: #6fb3ff; } .navbar-custom .navbar-brand, .navbar-custom .nav li a { color: #1a1a1a; }   This article has been paraphrased and changed from it&amp;rsquo;s original creation.
- My previous position gave me a very broad introduction and in some cases mastery of particular skills, and this was lead by a friend and mentor which I moved into his team four years ago.
-I am continuing to explore multiple streams of skills, but I have a focus on Go/Rust, DevOps and CI/CD - which aren&amp;rsquo;t even part of my professional skill-set yet.</description>
+      <description>Announcement of an employment change.</description>
     </item>
     
   </channel>
