@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
-    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fubarhouse.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 Retrospective</title>
+      <link>https://fubarhouse.github.io/blog/post/2020-01-01/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/post/2020-01-01/</guid>
+      <description>Congratulations to us all, we have finally made it to 2020. The very big year that so many goals were created when I entered the APS in the Department of Climate Change and Energy Efficiency as a mere web administrator working primarily with SharePoint and publishing content.
+I want to open with a note about the Australian bushfires - so much damage. We must recognize that we are lucky to have the circumstances we did.</description>
+    </item>
     
     <item>
       <title>A delicious apple salad.</title>
@@ -18,7 +28,8 @@
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2019-05-28/</guid>
-      <description>An opportunity to see strategies relating to technology decisions.</description>
+      <description>There are a few things in life which I really love. Consistency, simplicity, reliability and maintainability. Note that configurability and controllability are not in that list. There are not many mass-consumable things which marry these principles, which is unfortunate.
+I admit before my current career in development began in 2012 I used Windows every day for everything. It was subsequent position which I needed to use a Mac desktop for work, and shortly moved to using a laptop.</description>
     </item>
     
     <item>
@@ -27,7 +38,8 @@
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2019-03-12/</guid>
-      <description>Featuring a pod of Pygmy Whales and a command line.</description>
+      <description>Pygmy is the tool which helps the amazeeio-network Docker network resolve a few issues for local development, and I was never really happy with it&amp;hellip; I suppose even though all of those problems are no longer an issue, but the history is now there.
+What I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn&#39;t doing anything unsuitable. Cloning a repository in two directories and running them with docker-compose seems like a tough ask for some&amp;hellip;</description>
     </item>
     
     <item>
@@ -36,7 +48,9 @@
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2019-01-01/</guid>
-      <description>Goals and excitment for the coming year.</description>
+      <description>First and foremost, welcome to 2019. May 2019 be an excellent year.
+This year should be rather exciting for me, but I&#39;ve stretched the expected goals with some desirable and not-so-desirable goals.
+I started with a new employer late last year and I believe I&#39;ve been there long enough to allow the dust to settle. The workloads there are expected to double in the coming 12 months on one project alone and there are multiple projects existing and forthcoming.</description>
     </item>
     
     <item>
@@ -45,7 +59,9 @@
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2018-12-25/</guid>
-      <description>The year as a post-mortem, looking towards 2019.</description>
+      <description>I started 2018 believing I could achieve reinventing myself, like so many did. Foolish, I know. But no matter the circumstance, a holiday is a great catalyst for this.
+Reinventing myself included short-term goals and contributing progress to long-term goals.
+Last year my milestones were impeded by my employer for a variety of reasons outside of my control. Early in the year I needed a move out of my very comfortable situation, so my first successful application was submitted in April, and the application which landed my new job was submitted in August.</description>
     </item>
     
     <item>
@@ -54,7 +70,9 @@
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2018-11-14/</guid>
-      <description>The barrier of entry for open source developers has never been higher.</description>
+      <description>Not too long ago, one of DrupalACT&amp;lsquo;s developers made a blog post suggesting a developer is not just a developer anymore.
+The author maintains the fact proudly that they&#39;re probably being a bit grumpy, however there&#39;s a lot of merit in this line of thought.
+When starting out, it was all about the full-stack developer - the LAMP developer. The fact is, a full stack developer simply has a well-rounded set of skills for a particular type of technology which is usually centric to a given language or technology.</description>
     </item>
     
     <item>
@@ -63,7 +81,9 @@
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2018-11-01/</guid>
-      <description>Announcement of an employment change.</description>
+      <description>This article has been paraphrased and changed from it&#39;s original creation.
+ My previous position gave me a very broad introduction and in some cases mastery of particular skills, and this was lead by a friend and mentor which I moved into his team four years ago.
+I am continuing to explore multiple streams of skills, but I have a focus on Go/Rust, DevOps and CI/CD - which aren&#39;t even part of my professional skill-set yet.</description>
     </item>
     
   </channel>

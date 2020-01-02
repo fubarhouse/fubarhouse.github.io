@@ -4,8 +4,53 @@
   
   <url>
     <loc>https://fubarhouse.github.io/blog/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/post/2020-01-01/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/tags/personal/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/post/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/tags/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/tags/conference/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/tags/drupal/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/tags/drupalsouth/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/images/drupalsouth/2019/2020-01-02/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fubarhouse.github.io/blog/images/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -15,21 +60,6 @@
   
   <url>
     <loc>https://fubarhouse.github.io/blog/tags/future/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fubarhouse.github.io/blog/tags/personal/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fubarhouse.github.io/blog/post/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fubarhouse.github.io/blog/tags/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -70,11 +100,6 @@
   
   <url>
     <loc>https://fubarhouse.github.io/blog/tags/career/</loc>
-    <lastmod>2018-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fubarhouse.github.io/blog/tags/drupal/</loc>
     <lastmod>2018-11-14T00:00:00+00:00</lastmod>
   </url>
   

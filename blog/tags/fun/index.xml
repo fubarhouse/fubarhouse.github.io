@@ -18,7 +18,8 @@
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2019-03-12/</guid>
-      <description>Featuring a pod of Pygmy Whales and a command line.</description>
+      <description>Pygmy is the tool which helps the amazeeio-network Docker network resolve a few issues for local development, and I was never really happy with it&amp;hellip; I suppose even though all of those problems are no longer an issue, but the history is now there.
+What I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn&#39;t doing anything unsuitable. Cloning a repository in two directories and running them with docker-compose seems like a tough ask for some&amp;hellip;</description>
     </item>
     
   </channel>

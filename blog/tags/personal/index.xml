@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
-    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fubarhouse.github.io/blog/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 Retrospective</title>
+      <link>https://fubarhouse.github.io/blog/post/2020-01-01/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>https://fubarhouse.github.io/blog/post/2020-01-01/</guid>
+      <description>Congratulations to us all, we have finally made it to 2020. The very big year that so many goals were created when I entered the APS in the Department of Climate Change and Energy Efficiency as a mere web administrator working primarily with SharePoint and publishing content.
+I want to open with a note about the Australian bushfires - so much damage. We must recognize that we are lucky to have the circumstances we did.</description>
+    </item>
     
     <item>
       <title>A delicious apple salad.</title>
@@ -18,7 +28,8 @@
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2019-05-28/</guid>
-      <description>An opportunity to see strategies relating to technology decisions.</description>
+      <description>There are a few things in life which I really love. Consistency, simplicity, reliability and maintainability. Note that configurability and controllability are not in that list. There are not many mass-consumable things which marry these principles, which is unfortunate.
+I admit before my current career in development began in 2012 I used Windows every day for everything. It was subsequent position which I needed to use a Mac desktop for work, and shortly moved to using a laptop.</description>
     </item>
     
   </channel>
