@@ -7,20 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
-    <lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fubarhouse.github.io/blog/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>DrupalSouth 2019</title>
-      <link>https://fubarhouse.github.io/blog/images/drupalsouth/2019/2020-01-02/</link>
-      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
-      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/images/drupalsouth/2019/2020-01-02/</guid>
-      <description>In November this year I was lucky enough to be flown to Hobart for DrupalSouth - one of the biggest Drupal conventions of the year in Australia. It&#39;s a couple of days where an enormous portion of Drupal skill in Australia is in a single spot - it&#39;s not a time where you&#39;d want a security release or vulnerability to become public.
-Let me be clear here, it&#39;s incredibly rare I go anywhere let alone on a plane for work.</description>
-    </item>
     
     <item>
       <title>The barrier of entry</title>
@@ -29,7 +19,7 @@ Let me be clear here, it&#39;s incredibly rare I go anywhere let alone on a plan
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
       <guid>https://fubarhouse.github.io/blog/post/2018-11-14/</guid>
       <description>Not too long ago, one of DrupalACT&amp;lsquo;s developers made a blog post suggesting a developer is not just a developer anymore.
-The author maintains the fact proudly that they&#39;re probably being a bit grumpy, however there&#39;s a lot of merit in this line of thought.
+The author maintains the fact proudly that they&amp;rsquo;re probably being a bit grumpy, however there&amp;rsquo;s a lot of merit in this line of thought.
 When starting out, it was all about the full-stack developer - the LAMP developer. The fact is, a full stack developer simply has a well-rounded set of skills for a particular type of technology which is usually centric to a given language or technology.</description>
     </item>
     

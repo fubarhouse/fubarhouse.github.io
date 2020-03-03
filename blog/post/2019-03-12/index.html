@@ -57,7 +57,7 @@
     "name" : "Karl Hepworth"
   },
   "headline": "Adventures with a Pygmy",
-  "description" : "Pygmy is the tool which helps the amazeeio-network Docker network resolve a few issues for local development, and I was never really happy with it\x26hellip; I suppose even though all of those problems are no longer an issue, but the history is now there.\nWhat I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn\x27t doing anything unsuitable. Cloning a repository in two directories and running them with docker-compose seems like a tough ask for some\x26hellip;",
+  "description" : "Pygmy is the tool which helps the amazeeio-network Docker network resolve a few issues for local development, and I was never really happy with it\x26hellip; I suppose even though all of those problems are no longer an issue, but the history is now there.\nWhat I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn\x26rsquo;t doing anything unsuitable. Cloning a repository in two directories and running them with docker-compose seems like a tough ask for some\x26hellip;",
   "inLanguage" : "en",
   "wordCount":  705 ,
   "datePublished" : "2019-03-12T00:00:00",
@@ -92,7 +92,7 @@
   <meta name="twitter:site" content="@fubarhouse" />
   <meta name="twitter:creator" content="@fubarhouse" />
   <link href='https://fubarhouse.github.io/blog/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.62.0" />
+  <meta name="generator" content="Hugo 0.65.0" />
   <link rel="alternate" href="https://fubarhouse.github.io/blog/index.xml" type="application/rss+xml" title="Karl&#39;s Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://fubarhouse.github.io/blog/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -269,12 +269,12 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
         <p>Pygmy is the tool which helps the <code>amazeeio-network</code> Docker network resolve a few issues for local development, and I was never really happy with it&hellip; I suppose even though all of those problems are no longer an issue, but the history is now there.</p>
-<p>What I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn't doing anything unsuitable. Cloning a repository in two directories and running them with <code>docker-compose</code> seems like a tough ask for some&hellip;</p>
+<p>What I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn&rsquo;t doing anything unsuitable. Cloning a repository in two directories and running them with <code>docker-compose</code> seems like a tough ask for some&hellip;</p>
 <p>So we have this exciting new stack, with some great example repositories. Running one appears to have an issue with the proxy config template, so I created my own Docker image and included a new config.</p>
-<p>Cool, so it all works as I'd expect with the changes I've layered onto it. Still, I find myself bored with this little tool. It does some interesting things and it's very barebones - and it even depends on a static template. Looking into a better solution to the proxy I find myself trying out <a href="https://traefik.io/">Traefik</a>, and it does all I want and natively understands Docker because it's in Go, it communicates using the daemon and it supports Swarm, Kubernetes etc.</p>
-<p>So after a few passes I get it working natively in a custom version of Pygmy. This time it's kinda hacked together with no real support or integration with the tool itself, but it's functional for my own needs.</p>
-<p>Months later I'm frustrated with my own work. Tired of manually changing ports in the Ruby files when I have new installations and tired of laborious installation processes. If I were to tell people about this and they tried it, I'd frankly be surprised if anybody could get it started quickly.</p>
-<p>So once more I've revisited my fork of this tool and given it the proper attention it should deserve and I think I'm finally happy. It all runs perfect as expected and by passing an optional flag you can choose to use Traefik instead of HAProxy. HAProxy will not at all run and Traefik will serve the purpose HAProxy serves in its place.</p>
+<p>Cool, so it all works as I&rsquo;d expect with the changes I&rsquo;ve layered onto it. Still, I find myself bored with this little tool. It does some interesting things and it&rsquo;s very barebones - and it even depends on a static template. Looking into a better solution to the proxy I find myself trying out <a href="https://traefik.io/">Traefik</a>, and it does all I want and natively understands Docker because it&rsquo;s in Go, it communicates using the daemon and it supports Swarm, Kubernetes etc.</p>
+<p>So after a few passes I get it working natively in a custom version of Pygmy. This time it&rsquo;s kinda hacked together with no real support or integration with the tool itself, but it&rsquo;s functional for my own needs.</p>
+<p>Months later I&rsquo;m frustrated with my own work. Tired of manually changing ports in the Ruby files when I have new installations and tired of laborious installation processes. If I were to tell people about this and they tried it, I&rsquo;d frankly be surprised if anybody could get it started quickly.</p>
+<p>So once more I&rsquo;ve revisited my fork of this tool and given it the proper attention it should deserve and I think I&rsquo;m finally happy. It all runs perfect as expected and by passing an optional flag you can choose to use Traefik instead of HAProxy. HAProxy will not at all run and Traefik will serve the purpose HAProxy serves in its place.</p>
 <h2 id="features">Features</h2>
 <ul>
 <li>The Traefik microservice</li>
@@ -295,13 +295,13 @@
 <li><code>pygmy up --traefik</code>, <code>pygmy restart --traefik</code> and <code>pygmy pull --traefik</code> will ensure Traefik is used instead of HAProxy when the containers start.</li>
 <li><code>pygmy status</code> will also include Traefik.</li>
 <li>HAProxy will not run concurrently with Traefik.</li>
-<li>Traefik's frontend can be access via <code>http://localhost:8080</code>.</li>
+<li>Traefik&rsquo;s frontend can be access via <code>http://localhost:8080</code>.</li>
 </ul>
 <h2 id="why">Why</h2>
-<p>This solves a couple of problems for me, and it's an elegant solution which anybody could utilise. I've been using it for a while now and I plan on keeping it compatible with the upstream gem. This included partly a learning curve for myself as maintaining a Ruby repository is part of my plan. If I manage to get Prometheus and Grafana reasonably useful I may add them later - but the bare-bones prototype I have on top of this isn't really useful yet.</p>
+<p>This solves a couple of problems for me, and it&rsquo;s an elegant solution which anybody could utilise. I&rsquo;ve been using it for a while now and I plan on keeping it compatible with the upstream gem. This included partly a learning curve for myself as maintaining a Ruby repository is part of my plan. If I manage to get Prometheus and Grafana reasonably useful I may add them later - but the bare-bones prototype I have on top of this isn&rsquo;t really useful yet.</p>
 <h2 id="moving-forward">Moving forward</h2>
-<p>Well, creating tools has become a small speciality of mine so I would be interested in any feedback you could give me on this. I'm also looking for opportunity to add microservices onto pygmy and potentially designing a plugin system to contribute upstream. Being able to have plugins would mean I could maintain this as a plugin instead of a separate fork of pygmy.</p>
-<p>I'm open to ideas and feedback so please reach out if you give it a go.</p>
+<p>Well, creating tools has become a small speciality of mine so I would be interested in any feedback you could give me on this. I&rsquo;m also looking for opportunity to add microservices onto pygmy and potentially designing a plugin system to contribute upstream. Being able to have plugins would mean I could maintain this as a plugin instead of a separate fork of pygmy.</p>
+<p>I&rsquo;m open to ideas and feedback so please reach out if you give it a go.</p>
 
 
         
@@ -429,7 +429,7 @@
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.62.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.65.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>
