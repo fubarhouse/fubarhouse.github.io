@@ -1,7 +1,7 @@
 ---
-title: About me
-subtitle: Learn about me!
-comments: false
+title: "About"
+button: "About"
+weight: 2
 ---
 
 My name is Karl. I'm a self-taught open source developer with an interest in Drupal, Go, tooling and automation. I also love back-end development of almost any kind.
