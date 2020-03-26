@@ -5,7 +5,6 @@
   <url>
     <loc>https://fubarhouse.github.io/blog/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -114,15 +113,7 @@
   </url>
   
   <url>
-    <loc>https://fubarhouse.github.io/blog/page/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://fubarhouse.github.io/blog/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fubarhouse.github.io/blog/page/</loc>
   </url>
   
 </urlset>

@@ -106,15 +106,5 @@ When starting out, it was all about the full-stack developer - the LAMP develope
 I am continuing to explore multiple streams of skills, but I have a focus on Go/Rust, DevOps and CI/CD - which aren&amp;rsquo;t even part of my professional skill-set yet.</description>
     </item>
     
-    <item>
-      <title>About me</title>
-      <link>https://fubarhouse.github.io/blog/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/page/about/</guid>
-      <description>My name is Karl. I&amp;rsquo;m a self-taught open source developer with an interest in Drupal, Go, tooling and automation. I also love back-end development of almost any kind.
-I&amp;rsquo;m the luckiest father and husband in the world, for we have one daughter who my life would be incomplete without. We live in a rather under-rated city of Canberra, Australia. I say under-rated because only those that live here really &amp;ldquo;get&amp;rdquo; it.</description>
-    </item>
-    
   </channel>
 </rss>
