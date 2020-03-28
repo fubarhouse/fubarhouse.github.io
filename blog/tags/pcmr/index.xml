@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>pcmr on Karl&#39;s Blog</title>
+    <link>/blog/tags/pcmr/</link>
+    <description>Recent content in pcmr on Karl&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
+    <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
+    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/blog/tags/pcmr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PCMR community toxicity is the devil</title>
+      <link>/blog/post/2020-03-28/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>/blog/post/2020-03-28/</guid>
+      <description>Well, gaming simply isn&amp;rsquo;t what it used to be. It used to be about the gaming experience. It used to be about the platform and the investment of story-telling.
+Some of the values still exist if you look hard enough. But, if you look at Reddit and any other online community, all you can see is RGB lighting, bloating, egotistical behavior, repeatable arena-based multi-player games with micro-transactions, insulting your mate&amp;rsquo;s mother and nothing really of interest other than the granular passion for components and well&amp;hellip; Windows.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

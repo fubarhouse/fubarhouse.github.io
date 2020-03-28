@@ -1,55 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>personal on Karl&#39;s Blog</title>
-    <link>https://fubarhouse.github.io/blog/tags/personal/</link>
+    <link>/blog/tags/personal/</link>
     <description>Recent content in personal on Karl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
-    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://fubarhouse.github.io/blog/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>PCMR community toxicity is the devil</title>
+      <link>/blog/post/2020-03-28/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>/blog/post/2020-03-28/</guid>
+      <description>Well, gaming simply isn&amp;rsquo;t what it used to be. It used to be about the gaming experience. It used to be about the platform and the investment of story-telling.
+Some of the values still exist if you look hard enough. But, if you look at Reddit and any other online community, all you can see is RGB lighting, bloating, egotistical behavior, repeatable arena-based multi-player games with micro-transactions, insulting your mate&amp;rsquo;s mother and nothing really of interest other than the granular passion for components and well&amp;hellip; Windows.</description>
+      
+    </item>
+    
+    <item>
       <title>Karl&#39;s Quarantine Survival Guide</title>
-      <link>https://fubarhouse.github.io/blog/post/2020-03-26/</link>
+      <link>/blog/post/2020-03-26/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2020-03-26/</guid>
+      <guid>/blog/post/2020-03-26/</guid>
       <description>Note this blog post is more of a personal journal and guide, there are so many blog posts about this but I wanted one of my own to refer back to.
  Nobody in Australia was ready for Summer of 2019/2020.
 The Planeteers comprised of Earth, Fire, Wind, Water and Heart. This can all be correlated to the season we&amp;rsquo;ve had here and of course more broadly is the organic and natural evolution to the seemingly biological Coronavirus identified as COVID-19.</description>
+      
     </item>
     
     <item>
       <title>Year of the Linux desktop</title>
-      <link>https://fubarhouse.github.io/blog/post/2020-03-03/</link>
+      <link>/blog/post/2020-03-03/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2020-03-03/</guid>
+      <guid>/blog/post/2020-03-03/</guid>
       <description>About five years ago my life was transformed when a certain video game was released. It was around this time I was exploring the idea of how I could move away from using Microsoft products. However the two options I had weren&amp;rsquo;t appropriate enough. Mac simply was hopeless when it came to gaming and Linux wasn&amp;rsquo;t&amp;hellip; mature enough, in that space. It was however on a trajectory so timing wasn&amp;rsquo;t favourable.</description>
+      
     </item>
     
     <item>
       <title>2019 Retrospective</title>
-      <link>https://fubarhouse.github.io/blog/post/2020-01-01/</link>
+      <link>/blog/post/2020-01-01/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2020-01-01/</guid>
+      <guid>/blog/post/2020-01-01/</guid>
       <description>Congratulations to us all, we have finally made it to 2020. The very big year that so many goals were created when I entered the APS in the Department of Climate Change and Energy Efficiency as a mere web administrator working primarily with SharePoint and publishing content.
 I want to open with a note about the Australian bushfires - so much damage. We must recognize that we are lucky to have the circumstances we did.</description>
+      
     </item>
     
     <item>
       <title>A delicious apple salad.</title>
-      <link>https://fubarhouse.github.io/blog/post/2019-05-28/</link>
+      <link>/blog/post/2019-05-28/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2019-05-28/</guid>
+      <guid>/blog/post/2019-05-28/</guid>
       <description>There are a few things in life which I really love. Consistency, simplicity, reliability and maintainability. Note that configurability and controllability are not in that list. There are not many mass-consumable things which marry these principles, which is unfortunate.
 I admit before my current career in development began in 2012 I used Windows every day for everything. It was subsequent position which I needed to use a Mac desktop for work, and shortly moved to using a laptop.</description>
+      
     </item>
     
   </channel>

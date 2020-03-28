@@ -1,24 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>linux on Karl&#39;s Blog</title>
-    <link>https://fubarhouse.github.io/blog/tags/linux/</link>
+    <link>/blog/tags/linux/</link>
     <description>Recent content in linux on Karl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
     <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://fubarhouse.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Year of the Linux desktop</title>
-      <link>https://fubarhouse.github.io/blog/post/2020-03-03/</link>
+      <link>/blog/post/2020-03-03/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2020-03-03/</guid>
+      <guid>/blog/post/2020-03-03/</guid>
       <description>About five years ago my life was transformed when a certain video game was released. It was around this time I was exploring the idea of how I could move away from using Microsoft products. However the two options I had weren&amp;rsquo;t appropriate enough. Mac simply was hopeless when it came to gaming and Linux wasn&amp;rsquo;t&amp;hellip; mature enough, in that space. It was however on a trajectory so timing wasn&amp;rsquo;t favourable.</description>
+      
     </item>
     
   </channel>

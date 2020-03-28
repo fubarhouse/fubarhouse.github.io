@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>future on Karl&#39;s Blog</title>
-    <link>https://fubarhouse.github.io/blog/tags/future/</link>
+    <link>/blog/tags/future/</link>
     <description>Recent content in future on Karl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
     <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://fubarhouse.github.io/blog/tags/future/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/tags/future/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A delicious apple salad.</title>
-      <link>https://fubarhouse.github.io/blog/post/2019-05-28/</link>
+      <link>/blog/post/2019-05-28/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2019-05-28/</guid>
+      <guid>/blog/post/2019-05-28/</guid>
       <description>There are a few things in life which I really love. Consistency, simplicity, reliability and maintainability. Note that configurability and controllability are not in that list. There are not many mass-consumable things which marry these principles, which is unfortunate.
 I admit before my current career in development began in 2012 I used Windows every day for everything. It was subsequent position which I needed to use a Mac desktop for work, and shortly moved to using a laptop.</description>
+      
     </item>
     
   </channel>

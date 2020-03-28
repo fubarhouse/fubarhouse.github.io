@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>pygmy on Karl&#39;s Blog</title>
-    <link>https://fubarhouse.github.io/blog/tags/pygmy/</link>
+    <link>/blog/tags/pygmy/</link>
     <description>Recent content in pygmy on Karl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
     <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://fubarhouse.github.io/blog/tags/pygmy/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/tags/pygmy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adventures with a Pygmy</title>
-      <link>https://fubarhouse.github.io/blog/post/2019-03-12/</link>
+      <link>/blog/post/2019-03-12/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2019-03-12/</guid>
+      <guid>/blog/post/2019-03-12/</guid>
       <description>Pygmy is the tool which helps the amazeeio-network Docker network resolve a few issues for local development, and I was never really happy with it&amp;hellip; I suppose even though all of those problems are no longer an issue, but the history is now there.
 What I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn&amp;rsquo;t doing anything unsuitable. Cloning a repository in two directories and running them with docker-compose seems like a tough ask for some&amp;hellip;</description>
+      
     </item>
     
   </channel>

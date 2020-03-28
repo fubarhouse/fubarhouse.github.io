@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.66.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Adventures with a Pygmy&nbsp;&ndash;&nbsp;Karl&#39;s Blog</title><link rel="stylesheet" href="/blog/css/core.min.bd859a1555c63591b5d39ec8693f967b44db9185b9b75cf79c2f4e422baddaec635daf74569766c0f25692a037be4789.css" integrity="sha384-vYWaFVXGNZG1057IaT&#43;We0TbkYW5t1z3nC9OQiut2uxjXa90VpdmwPJWkqA3vkeJ"><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/blog/"><img class="site logo" src="/blog/img/avatar-icon.png" alt /><span class="site name">Karl's Blog</span></a></span>
+        <span class="header right-side"></span></div></section><div id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Adventures with a Pygmy</h1><p class="article date">March 12, 2019<span class="reading-time"> • 4 minutes to read</span></p></section><article class="article markdown-body"><p>Pygmy is the tool which helps the <code>amazeeio-network</code> Docker network resolve a few issues for local development, and I was never really happy with it&hellip; I suppose even though all of those problems are no longer an issue, but the history is now there.</p>
+<p>What I perceived to be a broken proxy was simply not suited to what I was doing - even though I wasn&rsquo;t doing anything unsuitable. Cloning a repository in two directories and running them with <code>docker-compose</code> seems like a tough ask for some&hellip;</p>
+<p>So we have this exciting new stack, with some great example repositories. Running one appears to have an issue with the proxy config template, so I created my own Docker image and included a new config.</p>
+<p>Cool, so it all works as I&rsquo;d expect with the changes I&rsquo;ve layered onto it. Still, I find myself bored with this little tool. It does some interesting things and it&rsquo;s very barebones - and it even depends on a static template. Looking into a better solution to the proxy I find myself trying out <a href="https://traefik.io/"target="_blank">Traefik</a>, and it does all I want and natively understands Docker because it&rsquo;s in Go, it communicates using the daemon and it supports Swarm, Kubernetes etc.</p>
+<p>So after a few passes I get it working natively in a custom version of Pygmy. This time it&rsquo;s kinda hacked together with no real support or integration with the tool itself, but it&rsquo;s functional for my own needs.</p>
+<p>Months later I&rsquo;m frustrated with my own work. Tired of manually changing ports in the Ruby files when I have new installations and tired of laborious installation processes. If I were to tell people about this and they tried it, I&rsquo;d frankly be surprised if anybody could get it started quickly.</p>
+<p>So once more I&rsquo;ve revisited my fork of this tool and given it the proper attention it should deserve and I think I&rsquo;m finally happy. It all runs perfect as expected and by passing an optional flag you can choose to use Traefik instead of HAProxy. HAProxy will not at all run and Traefik will serve the purpose HAProxy serves in its place.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>The Traefik microservice</li>
+<li>A command-line flag to selectively specify Traefik should be used.</li>
+<li>An added Traefik Docker label for Mailhog</li>
+<li>Logic to start, stop and update, which supports the new Traefik flag to start and stop the right service.</li>
+<li>Adds Traefik and resolver support to the pull and restart commands.</li>
+<li>Some basic changes to support a gem release.</li>
+</ul>
+<h2 id="install">Install</h2>
+<ul>
+<li><code>pygmy</code> is not compatible directly with this special version, so you can run <code>gem uninstall pygmy</code> to remove pygmy.</li>
+<li>Install the Gem by running <code>gem install pygmy-traefik</code>.</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p>The usage really is vanilla, and this is the point of the deeper level of integration. The services and ports are logically allocated to avoid problems and to maintain compatibility and ease of use. So, just <a href="https://docs.amazee.io/local_docker_development/pygmy.html"target="_blank">follow official documentation</a>, but do consider the following changes to how it could be used:</p>
+<ul>
+<li><code>pygmy up --traefik</code>, <code>pygmy restart --traefik</code> and <code>pygmy pull --traefik</code> will ensure Traefik is used instead of HAProxy when the containers start.</li>
+<li><code>pygmy status</code> will also include Traefik.</li>
+<li>HAProxy will not run concurrently with Traefik.</li>
+<li>Traefik&rsquo;s frontend can be access via <code>http://localhost:8080</code>.</li>
+</ul>
+<h2 id="why">Why</h2>
+<p>This solves a couple of problems for me, and it&rsquo;s an elegant solution which anybody could utilise. I&rsquo;ve been using it for a while now and I plan on keeping it compatible with the upstream gem. This included partly a learning curve for myself as maintaining a Ruby repository is part of my plan. If I manage to get Prometheus and Grafana reasonably useful I may add them later - but the bare-bones prototype I have on top of this isn&rsquo;t really useful yet.</p>
+<h2 id="moving-forward">Moving forward</h2>
+<p>Well, creating tools has become a small speciality of mine so I would be interested in any feedback you could give me on this. I&rsquo;m also looking for opportunity to add microservices onto pygmy and potentially designing a plugin system to contribute upstream. Being able to have plugins would mean I could maintain this as a plugin instead of a separate fork of pygmy.</p>
+<p>I&rsquo;m open to ideas and feedback so please reach out if you give it a go.</p>
+</article><section class="article labels"><a class="tag" href=/blog/tags/pygmy/>pygmy</a><a class="tag" href=/blog/tags/ruby/>ruby</a><a class="tag" href=/blog/tags/fun/>fun</a><a class="tag" href=/blog/tags/docker/>docker</a></section></div><section class="article navigation"><p><a class="link" href="/blog/post/2019-05-28/"><span class="li">&larr;</span>A delicious apple salad.</a></p><p><a class="link" href="/blog/post/2019-01-01/"><span class="li">&rarr;</span>Looking ahead into 2019</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">Karl's Blog</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section></div>
+</body>
+
+</html>

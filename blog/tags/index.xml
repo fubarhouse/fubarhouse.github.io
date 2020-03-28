@@ -1,105 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Karl&#39;s Blog</title>
-    <link>https://fubarhouse.github.io/blog/tags/</link>
+    <link>/blog/tags/</link>
     <description>Recent content in Tags on Karl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
-    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://fubarhouse.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>personal</title>
-      <link>https://fubarhouse.github.io/blog/tags/personal/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      <title>pcmr</title>
+      <link>/blog/tags/pcmr/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/personal/</guid>
+      <guid>/blog/tags/pcmr/</guid>
       <description></description>
+      
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>/blog/tags/personal/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
+      <guid>/blog/tags/personal/</guid>
+      <description></description>
+      
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://fubarhouse.github.io/blog/tags/linux/</link>
+      <link>/blog/tags/linux/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/linux/</guid>
+      <guid>/blog/tags/linux/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>future</title>
-      <link>https://fubarhouse.github.io/blog/tags/future/</link>
+      <link>/blog/tags/future/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/future/</guid>
+      <guid>/blog/tags/future/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>docker</title>
-      <link>https://fubarhouse.github.io/blog/tags/docker/</link>
+      <link>/blog/tags/docker/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/docker/</guid>
+      <guid>/blog/tags/docker/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>fun</title>
-      <link>https://fubarhouse.github.io/blog/tags/fun/</link>
+      <link>/blog/tags/fun/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/fun/</guid>
+      <guid>/blog/tags/fun/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>pygmy</title>
-      <link>https://fubarhouse.github.io/blog/tags/pygmy/</link>
+      <link>/blog/tags/pygmy/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/pygmy/</guid>
+      <guid>/blog/tags/pygmy/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>ruby</title>
-      <link>https://fubarhouse.github.io/blog/tags/ruby/</link>
+      <link>/blog/tags/ruby/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/ruby/</guid>
+      <guid>/blog/tags/ruby/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>career</title>
-      <link>https://fubarhouse.github.io/blog/tags/career/</link>
+      <link>/blog/tags/career/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/career/</guid>
+      <guid>/blog/tags/career/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>drupal</title>
-      <link>https://fubarhouse.github.io/blog/tags/drupal/</link>
+      <link>/blog/tags/drupal/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/drupal/</guid>
+      <guid>/blog/tags/drupal/</guid>
       <description></description>
+      
     </item>
     
     <item>
       <title>government</title>
-      <link>https://fubarhouse.github.io/blog/tags/government/</link>
+      <link>/blog/tags/government/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/tags/government/</guid>
+      <guid>/blog/tags/government/</guid>
       <description></description>
+      
     </item>
     
   </channel>

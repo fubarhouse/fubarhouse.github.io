@@ -1,37 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>career on Karl&#39;s Blog</title>
-    <link>https://fubarhouse.github.io/blog/tags/career/</link>
+    <link>/blog/tags/career/</link>
     <description>Recent content in career on Karl&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>karl.hepworth@gmail.com (Karl Hepworth)</managingEditor>
     <webMaster>karl.hepworth@gmail.com (Karl Hepworth)</webMaster>
     <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://fubarhouse.github.io/blog/tags/career/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/tags/career/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The barrier of entry</title>
-      <link>https://fubarhouse.github.io/blog/post/2018-11-14/</link>
+      <link>/blog/post/2018-11-14/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2018-11-14/</guid>
+      <guid>/blog/post/2018-11-14/</guid>
       <description>Not too long ago, one of DrupalACT&amp;lsquo;s developers made a blog post suggesting a developer is not just a developer anymore.
 The author maintains the fact proudly that they&amp;rsquo;re probably being a bit grumpy, however there&amp;rsquo;s a lot of merit in this line of thought.
 When starting out, it was all about the full-stack developer - the LAMP developer. The fact is, a full stack developer simply has a well-rounded set of skills for a particular type of technology which is usually centric to a given language or technology.</description>
+      
     </item>
     
     <item>
       <title>New horizons.</title>
-      <link>https://fubarhouse.github.io/blog/post/2018-11-01/</link>
+      <link>/blog/post/2018-11-01/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <author>karl.hepworth@gmail.com (Karl Hepworth)</author>
-      <guid>https://fubarhouse.github.io/blog/post/2018-11-01/</guid>
+      <guid>/blog/post/2018-11-01/</guid>
       <description>This article has been paraphrased and changed from it&amp;rsquo;s original creation.
  My previous position gave me a very broad introduction and in some cases mastery of particular skills, and this was lead by a friend and mentor which I moved into his team four years ago.
 I am continuing to explore multiple streams of skills, but I have a focus on Go/Rust, DevOps and CI/CD - which aren&amp;rsquo;t even part of my professional skill-set yet.</description>
+      
     </item>
     
   </channel>
