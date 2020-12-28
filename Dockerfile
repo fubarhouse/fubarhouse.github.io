@@ -1,15 +1,19 @@
-FROM jojomi/hugo as builder
-MAINTAINER Karl Hepworth
+FROM debian:10-slim
 
-#FROM alpine:latest
-#COPY --from=builder /app /app
-EXPOSE 1313
-
-# Automatically build site
-ONBUILD ADD site/ /app
-ONBUILD RUN hugo -d /app/
-
-# By default, serve site
-ENV HUGO_BASE_URL http://localhost:1313
-CMD hugo serve -d /app/ -b ${HUGO_BASE_URL} --bind=0.0.0.0
-
+ENV HUGO_VERSION='0.79.1'
+ENV HUGO_NAME="hugo_extended_${HUGO_VERSION}_Linux-64bit"
+ENV HUGO_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_NAME}.tar.gz"
+WORKDIR /hugo
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+    wget \
+    git \
+    ca-certificates \
+    && wget "${HUGO_URL}" \
+    && tar -C /usr/bin/ -xzf "${HUGO_NAME}.tar.gz" \
+    && rm "${HUGO_NAME}.tar.gz" \
+    && apt-get remove -y wget \
+    && apt-get autoremove -y \
+    && rm -rf /var/lib/apt/lists/* \
+ADD ./hugo/* /hugo/
+CMD hugo server -D --bind="0.0.0.0"
