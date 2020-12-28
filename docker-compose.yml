@@ -9,4 +9,4 @@ services:
       - 1313:1313
     tty: true
     volumes:
-      - ./hugo:/hugo
+      - ./hugo:/hugo:delegated
