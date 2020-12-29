@@ -17,3 +17,4 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
 ADD ./hugo/* /hugo/
 CMD hugo server -D --bind="0.0.0.0"
+EXPOSE 1313
