@@ -1,4 +1,5 @@
 baseurl = "https://fubarhouse.github.io/blog/"
+relativeURLs = true
 DefaultContentLanguage = "en"
 title = "Karl's Blog"
 #DefaultContentLanguage = "ja"
