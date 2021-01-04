@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	appsv1 "k8s.io/api/apps/v1"
-	v1 "k8s.io/api/core/v1"
+	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/client-go/kubernetes"
@@ -43,19 +43,19 @@ var (
 					"app": "nginx",
 				},
 			},
-			Template: v1.PodTemplateSpec{
+			Template: corev1.PodTemplateSpec{
 				ObjectMeta: metav1.ObjectMeta{
 					Labels: map[string]string{
 						"app": "nginx",
 					},
 				},
-				Spec: v1.PodSpec{
-					Containers: []v1.Container{
+				Spec: corev1.PodSpec{
+					Containers: []corev1.Container{
 						{
 							Name:            "nginx",
 							Image:           "nginx",
 							ImagePullPolicy: "Always",
-							Ports: []v1.ContainerPort{
+							Ports: []corev1.ContainerPort{
 								{
 									ContainerPort: 80,
 								},
@@ -66,16 +66,16 @@ var (
 			},
 		},
 	}
-	service = &v1.Service{
+	service = &corev1.Service{
 		ObjectMeta: metav1.ObjectMeta{
 			Name: "nginx-service",
 		},
-		Spec: v1.ServiceSpec{
+		Spec: corev1.ServiceSpec{
 			Selector: map[string]string{
 				"app": "nginx",
 			},
 			Type: "LoadBalancer",
-			Ports: []v1.ServicePort{
+			Ports: []corev1.ServicePort{
 				{
 					Port: 80,
 					TargetPort: intstr.IntOrString{
