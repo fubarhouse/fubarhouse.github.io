@@ -13,6 +13,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
+	"k8s.io/klog/v2"
 )
 
 const (
@@ -90,9 +91,9 @@ var (
 
 func log(name string, action string, category string, state bool) {
 	if !state {
-		fmt.Printf("could not %v %v %v\n", action, category, name)
+		klog.Infof("could not %v %v %v\n", action, category, name)
 	} else {
-		fmt.Printf("%v %v was %vd\n", name, category, action)
+		klog.Infof("%v %v was %vd\n", name, category, action)
 	}
 }
 
