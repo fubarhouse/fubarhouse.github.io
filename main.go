@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"os"
 	"os/signal"
 	"sync"
@@ -154,7 +153,7 @@ func main() {
 
 	config, _ := clientcmd.BuildConfigFromFlags("", kubeconfig)
 	client, _ := kubernetes.NewForConfig(config)
-	fmt.Println("Listening...")
+	klog.Infoln("controller started")
 
 	go func() {
 		for {
@@ -171,7 +170,7 @@ func main() {
 	task.Add(1)
 	select {
 	case sig := <-c:
-		fmt.Printf("Got %s signal. Gracefully closing the controller...\n", sig)
+		klog.Infof("received %s signal; now terminating\n", sig)
 		clean(client)
 		task.Done()
 	}
