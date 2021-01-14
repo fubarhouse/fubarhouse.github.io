@@ -14,26 +14,33 @@ import (
 )
 
 type Application struct {
-	*kubernetes.Clientset
+	kubernetes.Clientset
 }
+
+var (
+	app Application
+)
 
 func main() {
 
 	config, _ := clientcmd.BuildConfigFromFlags("", kubeconfig)
 	client, _ := kubernetes.NewForConfig(config)
+
+	app.Clientset = *client
 	klog.Infoln("controller started")
+	app.createAll()
 
 	go func() {
 		for {
 
 			if _, e := client.CoreV1().Namespaces().Get(context.Background(), namespaced.Name, metav1.GetOptions{}); e != nil {
-				createNamespace(client)
+				app.updateNamespace()
 			}
 			if _, e := client.AppsV1().Deployments(namespaced.Name).Get(context.Background(), deployment.ObjectMeta.Name, metav1.GetOptions{}); e != nil {
-				createDeployment(client)
+				app.updateDeployment()
 			}
 			if _, e := client.CoreV1().Services(namespaced.Name).Get(context.Background(), service.ObjectMeta.Name, metav1.GetOptions{}); e != nil {
-				createService(client)
+				app.updateService()
 			}
 
 			time.Sleep(time.Second * 1)
@@ -49,9 +56,9 @@ func main() {
 	select {
 	case sig := <-c:
 		klog.Infof("received %s signal; now terminating\n", sig)
-		cleanDeployment(client)
-		cleanService(client)
-		cleanNamespace(client)
+		app.cleanDeployment()
+		app.cleanService()
+		app.cleanNamespace()
 		task.Done()
 	}
 }
