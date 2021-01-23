@@ -1,0 +1,8 @@
+FROM golang:alpine as builder
+LABEL maintainer="Karl Hepworth <karl.hepworth@gmail.com>"
+
+ADD . /app/
+WORKDIR /app
+RUN go build -o /app/controller .
+
+CMD ["/app/controller"]

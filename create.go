@@ -2,8 +2,7 @@ package main
 
 import (
 	"context"
-
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	"k8s.io/apimachinery/pkg/types"
 )
 
 func (client *Application) createAll() {
@@ -13,7 +12,11 @@ func (client *Application) createAll() {
 }
 
 func (client *Application) createNamespace() error {
-	if _, err := client.CoreV1().Namespaces().Create(context.Background(), namespaced, metav1.CreateOptions{}); err != nil {
+	if e := client.Get(context.Background(), types.NamespacedName{
+		Namespace: namespaced.Namespace,
+		Name:      namespaced.Name,
+	}, namespaced); e != nil {
+		err := client.Create(context.Background(), namespaced)
 		log(ns, "create", "namespace", false)
 		return err
 	}
@@ -22,19 +25,27 @@ func (client *Application) createNamespace() error {
 }
 
 func (client *Application) createDeployment() error {
-	if _, err := client.AppsV1().Deployments(namespaced.Name).Create(context.Background(), deployment, metav1.CreateOptions{}); err != nil {
-		log(deployment.ObjectMeta.Name, "create", "deployment", false)
+	if e := client.Get(context.Background(), types.NamespacedName{
+		Namespace: namespaced.Namespace,
+		Name:      namespaced.Name,
+	}, deployment); e != nil {
+		err := client.Create(context.Background(), deployment)
+		log(ns, "create", "deployment", false)
 		return err
 	}
-	log(deployment.ObjectMeta.Name, "create", "deployment", true)
+	log(ns, "create", "deployment", true)
 	return nil
 }
 
 func (client *Application) createService() error {
-	if _, err := client.CoreV1().Services(namespaced.Name).Create(context.Background(), service, metav1.CreateOptions{}); err != nil {
-		log(service.ObjectMeta.Name, "create", "service", false)
+	if e := client.Get(context.Background(), types.NamespacedName{
+		Namespace: namespaced.Namespace,
+		Name:      namespaced.Name,
+	}, deployment); e != nil {
+		err := client.Create(context.Background(), service)
+		log(ns, "create", "service", false)
 		return err
 	}
-	log(service.ObjectMeta.Name, "create", "service", true)
+	log(ns, "create", "service", true)
 	return nil
 }

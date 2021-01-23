@@ -1,9 +1,18 @@
 version: '3'
 services:
+  controller:
+    build:
+      context: .
+      dockerfile: Dockerfile.controller
+    container_name: controller
+    labels:
+      lagoon.type: none
+    networks:
+      - default
   web:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.web
     container_name: web
     environment:
       - LAGOON_LOCALDEV_HTTP_PORT=1313

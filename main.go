@@ -2,19 +2,19 @@ package main
 
 import (
 	"context"
+	"k8s.io/apimachinery/pkg/types"
 	"os"
 	"os/signal"
 	"sync"
 	"time"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/clientcmd"
+	"k8s.io/client-go/rest"
 	"k8s.io/klog/v2"
+	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 
 type Application struct {
-	kubernetes.Clientset
+	client.Client
 }
 
 var (
@@ -23,23 +23,52 @@ var (
 
 func main() {
 
-	config, _ := clientcmd.BuildConfigFromFlags("", kubeconfig)
-	client, _ := kubernetes.NewForConfig(config)
+	kubernetesHost := os.Getenv("KUBERNETES_HOST")   // https://192.168.99.110:8443
+	kubernetesToken := os.Getenv("KUBERNETES_TOKEN") // ""
 
-	app.Clientset = *client
+	if kubernetesHost == "" {
+		panic("missing kubernetes host input")
+	}
+
+	if kubernetesToken == "" {
+		panic("missing kubernetes token input")
+	}
+
+	config := &rest.Config{
+		BearerToken: string(kubernetesToken),
+		Host:        kubernetesHost,
+		TLSClientConfig: rest.TLSClientConfig{
+			Insecure: true,
+		},
+	}
+
+	c, _ := client.New(config, client.Options{})
+
+	app.Client = c
 	klog.Infoln("controller started")
 	app.createAll()
 
 	go func() {
 		for {
 
-			if _, e := client.CoreV1().Namespaces().Get(context.Background(), namespaced.Name, metav1.GetOptions{}); e != nil {
+			if e := c.Get(context.Background(), types.NamespacedName{
+				Namespace: namespaced.Namespace,
+				Name:      namespaced.Name,
+			}, namespaced); e != nil {
 				app.updateNamespace()
 			}
-			if _, e := client.AppsV1().Deployments(namespaced.Name).Get(context.Background(), deployment.ObjectMeta.Name, metav1.GetOptions{}); e != nil {
+
+			if e := c.Get(context.Background(), types.NamespacedName{
+				Namespace: namespaced.Namespace,
+				Name:      namespaced.Name,
+			}, deployment); e != nil {
 				app.updateDeployment()
 			}
-			if _, e := client.CoreV1().Services(namespaced.Name).Get(context.Background(), service.ObjectMeta.Name, metav1.GetOptions{}); e != nil {
+
+			if e := c.Get(context.Background(), types.NamespacedName{
+				Namespace: namespaced.Namespace,
+				Name:      namespaced.Name,
+			}, service); e != nil {
 				app.updateService()
 			}
 
@@ -48,13 +77,13 @@ func main() {
 		}
 	}()
 
-	c := make(chan os.Signal)
-	signal.Notify(c, os.Interrupt)
+	channel := make(chan os.Signal)
+	signal.Notify(channel, os.Interrupt)
 
 	task := sync.WaitGroup{}
 	task.Add(1)
 	select {
-	case sig := <-c:
+	case sig := <-channel:
 		klog.Infof("received %s signal; now terminating\n", sig)
 		app.cleanDeployment()
 		app.cleanService()
