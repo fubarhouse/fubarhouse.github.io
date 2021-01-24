@@ -54,21 +54,21 @@ func main() {
 	go func() {
 		for {
 
-			if e := c.Get(context.Background(), types.NamespacedName{
+			if e := app.Client.Get(context.Background(), types.NamespacedName{
 				Namespace: namespaced.Namespace,
 				Name:      namespaced.Name,
 			}, namespaced); e != nil {
 				app.updateNamespace()
 			}
 
-			if e := c.Get(context.Background(), types.NamespacedName{
+			if e := app.Client.Get(context.Background(), types.NamespacedName{
 				Namespace: deployment.Namespace,
 				Name:      deployment.Name,
 			}, deployment); e != nil {
 				app.updateDeployment()
 			}
 
-			if e := c.Get(context.Background(), types.NamespacedName{
+			if e := app.Client.Get(context.Background(), types.NamespacedName{
 				Namespace: service.Namespace,
 				Name:      service.Name,
 			}, service); e != nil {
