@@ -71,6 +71,7 @@ var (
 	service = &corev1.Service{
 		ObjectMeta: metav1.ObjectMeta{
 			Name: "nginx-awesome-service",
+			Namespace: ns,
 		},
 		Spec: corev1.ServiceSpec{
 			Selector: map[string]string{

@@ -42,7 +42,10 @@ func main() {
 		},
 	}
 
-	c, _ := client.New(config, client.Options{})
+	c, e := client.New(config, client.Options{})
+	if e != nil {
+		panic(e)
+	}
 
 	app.Client = c
 	klog.Infoln("controller started")
