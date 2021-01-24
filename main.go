@@ -2,12 +2,12 @@ package main
 
 import (
 	"context"
-	"k8s.io/apimachinery/pkg/types"
 	"os"
 	"os/signal"
 	"sync"
 	"time"
 
+	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/rest"
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/controller-runtime/pkg/client"
@@ -58,21 +58,24 @@ func main() {
 				Namespace: namespaced.Namespace,
 				Name:      namespaced.Name,
 			}, namespaced); e != nil {
-				app.updateNamespace()
+				//app.updateNamespace()
+				app.recreateNamespace()
 			}
 
 			if e := app.Client.Get(context.Background(), types.NamespacedName{
 				Namespace: deployment.Namespace,
 				Name:      deployment.Name,
 			}, deployment); e != nil {
-				app.updateDeployment()
+				//app.updateDeployment()
+				app.recreateDeployment()
 			}
 
 			if e := app.Client.Get(context.Background(), types.NamespacedName{
 				Namespace: service.Namespace,
 				Name:      service.Name,
 			}, service); e != nil {
-				app.updateService()
+				//app.updateService()
+				app.recreateService()
 			}
 
 			time.Sleep(time.Second * 1)
