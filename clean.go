@@ -9,40 +9,43 @@ func (client *Application) cleanNamespace() error {
 	if e := client.Client.Get(context.Background(), types.NamespacedName{
 		Namespace: namespaced.Namespace,
 		Name:      namespaced.Name,
-	}, namespaced); e != nil {
+	}, namespaced); e == nil {
 		if err := client.Client.Delete(context.Background(), namespaced); err != nil {
-			log(ns, "delete", "namespace", false)
+			log(ns, "delete", "namespace", false, err)
 			return err
+		} else {
+			log(ns, "delete", "namespace", true, nil)
 		}
 	}
-	log(ns, "delete", "namespace", true)
 	return nil
 }
 
 func (client *Application) cleanDeployment() error {
 	if e := client.Client.Get(context.Background(), types.NamespacedName{
-		Namespace: namespaced.Namespace,
-		Name:      namespaced.Name,
-	}, deployment); e != nil {
+		Namespace: deployment.Namespace,
+		Name:      deployment.Name,
+	}, deployment); e == nil {
 		if err := client.Client.Delete(context.Background(), deployment); err != nil {
-			log(ns, "delete", "deployment", false)
+			log(ns, "delete", "deployment", false, err)
 			return err
+		} else {
+			log(ns, "delete", "deployment", true, nil)
 		}
 	}
-	log(ns, "delete", "deployment", true)
 	return nil
 }
 
 func (client *Application) cleanService() error {
 	if e := client.Client.Get(context.Background(), types.NamespacedName{
-		Namespace: namespaced.Namespace,
-		Name:      namespaced.Name,
-	}, deployment); e != nil {
+		Namespace: service.Namespace,
+		Name:      service.Name,
+	}, deployment); e == nil {
 		if err := client.Client.Delete(context.Background(), service); err != nil {
-			log(ns, "delete", "service", false)
+			log(ns, "delete", "service", false, err)
 			return err
+		} else {
+			log(ns, "delete", "service", true, nil)
 		}
 	}
-	log(ns, "delete", "service", true)
 	return nil
 }

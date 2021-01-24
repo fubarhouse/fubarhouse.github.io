@@ -62,15 +62,15 @@ func main() {
 			}
 
 			if e := c.Get(context.Background(), types.NamespacedName{
-				Namespace: namespaced.Namespace,
-				Name:      namespaced.Name,
+				Namespace: deployment.Namespace,
+				Name:      deployment.Name,
 			}, deployment); e != nil {
 				app.updateDeployment()
 			}
 
 			if e := c.Get(context.Background(), types.NamespacedName{
-				Namespace: namespaced.Namespace,
-				Name:      namespaced.Name,
+				Namespace: service.Namespace,
+				Name:      service.Name,
 			}, service); e != nil {
 				app.updateService()
 			}

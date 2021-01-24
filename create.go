@@ -17,38 +17,41 @@ func (client *Application) createNamespace() error {
 		Name:      namespaced.Name,
 	}, namespaced); e != nil {
 		if err := client.Client.Create(context.Background(), namespaced); err != nil {
-			log(ns, "create", "namespace", false)
+			log(ns, "create", "namespace", false, err)
 			return err
+		} else {
+			log(ns, "create", "namespace", true, nil)
 		}
 	}
-	log(ns, "create", "namespace", true)
 	return nil
 }
 
 func (client *Application) createDeployment() error {
 	if e := client.Client.Get(context.Background(), types.NamespacedName{
-		Namespace: namespaced.Namespace,
-		Name:      namespaced.Name,
+		Namespace: deployment.Namespace,
+		Name:      deployment.Name,
 	}, deployment); e != nil {
 		if err := client.Client.Create(context.Background(), deployment); err != nil {
-			log(ns, "create", "deployment", false)
+			log(ns, "create", "deployment", false, err)
 			return err
+		} else {
+			log(ns, "create", "deployment", true, nil)
 		}
 	}
-	log(ns, "create", "deployment", true)
 	return nil
 }
 
 func (client *Application) createService() error {
 	if e := client.Client.Get(context.Background(), types.NamespacedName{
-		Namespace: namespaced.Namespace,
-		Name:      namespaced.Name,
+		Namespace: service.Namespace,
+		Name:      service.Name,
 	}, deployment); e != nil {
 		if err := client.Client.Create(context.Background(), service); err != nil {
-			log(ns, "create", "service", false)
+			log(ns, "create", "service", false, err)
 			return err
+		} else {
+			log(ns, "create", "service", true, nil)
 		}
 	}
-	log(ns, "create", "service", true)
 	return nil
 }
