@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+
+  node:
+    image: skpr/node:16-v2-latest
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "${WEB_PORT:-1313}:1313"
+    volumes:
+      - ./:/app
