@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    environment: production
+    environment: github-pages
     runs-on: ubuntu-22.04
     permissions:
       contents: write
