@@ -1,5 +1,6 @@
-public/
 .hugo_build.lock
-themes/ananke
+themes/beautifulhugo
 go.mod
 go.sum
+
+public/*
