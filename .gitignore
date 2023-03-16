@@ -1,1 +1,5 @@
-./*.md
+public/
+.hugo_build.lock
+themes/ananke
+go.mod
+go.sum

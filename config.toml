@@ -1,68 +1,59 @@
-baseurl = "https://fubarhouse.github.io/blog/"
+#
+# This config.toml is an example and based on the ananke theme
+# https://github.com/theNewDynamic/gohugo-theme-ananke/.
+#
+# If you use a different theme, you might need to change the content of config.toml
+# to your liking.
+#
+
+#
+# Theme setup
+#
+# If you use go mod to install your theme, you must use the URL of the theme.
+# If your theme is in the themes directory, you just need to specify its name.
+#
+#theme = "ananke"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+
+baseurl = "https://pages.gitlab.io/hugo/"
+title = "GitLab Pages and Hugo"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+languageCode = "en-us"
+resourceDir = "../resources"
+
 DefaultContentLanguage = "en"
-title = "Karl's Blog"
-#DefaultContentLanguage = "ja"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClassic = true
-pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
-publishDir = "blog"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
 
-[Params]
-  homeTitle = "Karl's Blog"
-  subtitle = ""
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = false
-  comments = false
-  readingTime = true
-  useHLJS = true
-  socialShare = false
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-
-#[[Params.bigimg]]
-#  src = "blog/img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "blog/img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "blog/img/hexagon.jpg"
-#  desc = "Hexagon"
-
-[Author]
-  name = "Karl Hepworth"
-  website = "yourwebsite.com"
-  email = "karl.hepworth@gmail.com"
-  facebook = "the.ugly.bum"
-  googleplus = "100742823054089470521"
-  github = "fubarhouse"
-  gitlab = "fubarhouse"
-  bitbucket = "fubarhouse"
-  twitter = "fubarhouse"
-  linkedin = "karl-hepworth-0a652350"
-
-[[menu.main]]
-    name = "Blog"
-    url = ""
+[languages]
+  [languages.en]
+    title = "Ananke"
     weight = 1
+    contentDir = "content/en"
+  [languages.fr]
+    title = "Ananke Fr"
+    weight = 2
+    contentDir = "content/fr"
 
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/GoHugoIO"
