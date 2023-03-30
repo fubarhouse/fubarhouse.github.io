@@ -1,5 +1,5 @@
-#baseurl = "https://fubarhouse.github.io"
-baseurl = "http://localhost:1313/"
+baseurl = "https://fubarhouse.github.io"
+#baseurl = "http://localhost:1313/"
 DefaultContentLanguage = "en"
 title = "Karl's Blog"
 theme = "beautifulhugo"
