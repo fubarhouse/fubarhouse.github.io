@@ -1,3 +1,3 @@
-## Front Page Content
+## Welcome!
 
-`beautifulhugo` supports content on your front page. Edit `/content/_index.md` to change what appears here. Delete `/content/_index.md` if you don't want any content here.
+Welcome to the revitalized blog, where I hope to update you on interesting things happening in my life. This is intended as a personal blog for logging and reflection and any views expressed here are stictly that of my own and not of any third party.
